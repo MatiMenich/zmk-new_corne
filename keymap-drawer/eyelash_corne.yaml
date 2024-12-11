@@ -1,5 +1,5 @@
 layers:
-  QWERTY:
+  Home:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -43,12 +43,12 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - LGUI
-  - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
+  - Num & BT
+  - {t: '$$mdi:keyboard-space$$', h: Fn alpha}
+  - {t: '$$mdi:keyboard-return$$', h: Fn beta}
+  - Symbol
   - $$mdi:apple-keyboard-option$$
-  NUMBER:
+  Num & BT:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -97,7 +97,7 @@ layers:
   - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -146,8 +146,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
-  - '&studio_unlock'
+  Fn alpha:
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
@@ -160,7 +160,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -192,6 +192,55 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  Fn beta:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - '&studio_unlock'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB4'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:progress-download$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - PRINTSCREEN
+  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB5'
+  - $$mdi:volume-off$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - SCROLLLOCK
+  - PAUSE BREAK
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
