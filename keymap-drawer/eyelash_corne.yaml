@@ -247,3 +247,11 @@ layers:
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
+- p: [11, 12]
+  k: Gui+ $$mdi:keyboard-tab$$
+- p: [10, 11]
+  k: Gui+Sft+ $$mdi:keyboard-tab$$
+- p: [27, 26]
+  k: Gui+ `
+- p: [25, 26]
+  k: Gui+Sft+ `
