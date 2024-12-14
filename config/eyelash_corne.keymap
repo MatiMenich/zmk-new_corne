@@ -19,7 +19,7 @@
 
  */
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1500  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
 &mt {
@@ -46,9 +46,7 @@
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-        tap-ms = <30>;
+        bindings = <&mwh MOVE_Y(15)>, <&mwh MOVE_Y(-15)>;
     };
 
     combos {
@@ -91,7 +89,7 @@
                                           &trans     &trans     &trans                                                                   &kp ENTER  &kp DEL       &kp N0
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         raise_layer {
@@ -103,7 +101,7 @@
                              &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
