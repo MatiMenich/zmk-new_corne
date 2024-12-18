@@ -15,8 +15,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - G
   - $$mdi:arrow-left-bold$$
@@ -24,8 +24,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - H
   - {t: J, h: RGUI}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '''', s: '"'}
   - '&td0'
